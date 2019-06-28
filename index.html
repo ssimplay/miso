@@ -1,0 +1,133 @@
+﻿<!DOCTYPE html>
+<html lang="ko">
+   <head>
+       <meta charset="utf-8">
+       <title>미소동물병원</title>
+       <link href="https://fonts.googleapis.com/css?family=Noto+Sans+KR" rel="stylesheet">
+       <link rel="stylesheet" type="text/css" href="css/main.css">
+       <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+    </head>
+   <body>
+       <div id="header">
+           <div class="header_wrap">
+               <h1><a href="index.html"><img src="images/logo.png" alt="미소동물병원"></a></h1>
+               <nav>
+                  <h2 class="hidden">카테고리</h2>
+                   <div class="gnb">
+                       <ul>
+                           <li>
+                              <a href="#">병원 소개</a>
+                               <ul class="dep">
+                                   <li><a href="#">병원 소개</a></li>
+                                   <li><a href="#">인사말</a></li>
+                               </ul>
+                           </li>
+                           <li>
+                           <a href="#">진료 과목</a>
+                               <ul class="dep">
+                                   <li><a href="#">멍멍이</a></li>
+                                   <li><a href="#">야옹이</a></li>
+                                   <li><a href="#">찍찍이</a></li>
+                                   <li><a href="#">심장사상충</a></li>
+                                   <li><a href="#">예방접종</a></li>
+                               </ul>
+                           </li>
+                           <li><a href="#">예약 안내</a>
+                           <ul class="dep">
+                               <li><a href="#">예약 안내</a></li>
+                           </ul>
+                           
+                           </li>
+                           <li><a href="#">오시는 길</a>
+                           <ul class="dep">
+                               <li><a href="#">오시는 길</a></li>
+                           </ul>
+                           
+                           </li>
+                       </ul>
+                   </div>
+               </nav>
+           </div>
+       </div>
+       
+       <script type="text/javascript">
+           
+        
+           $(function(){
+               $(".visual_img li:last").prependTo(".visual_img");
+               
+               $(".visual_btn li:last").click(function(){
+                  $(".visual_img").animate({ marginLeft:-2000 } , function(){
+                      $(".visual_img li:first").appendTo(".visual_img")
+                      $(".visual_img").css({ marginLeft:0 })
+                  });
+               });
+               
+               $(".visual_btn li:first").click(function(){
+                  $(".visual_img").animate({ marginLeft:0 } , function(){
+                      $(".visual_img li:last").prependTo(".visual_img")
+                      $(".visual_img").css({ marginLeft:-2000 })
+                  });
+               });
+           });
+           
+       </script>
+       
+       <section class="visual">
+           <ul class="visual_img" >
+               <li class="img1"></li>
+               <li class="img2" ></li>
+               <li class="img3" ></li>
+           </ul>
+           <ul class="visual_btn" >
+               <li><button><img src="images/left.png" alt="left_button"></button></li>
+               <li><button><img src="images/right.png" alt="right_button"></button></li>
+           </ul>
+       </section>
+       <section class="cont1">
+           <ul>
+               <li class="top1">
+                   <a href="#"><h3>멍멍이</h3></a>
+               </li>
+               <li class="top2">
+                   <a href="#"><h3>야옹이</h3></a>
+               </li>
+               <li class="top3">
+                   <a href="#"><h3>찍찍이</h3></a>
+               </li>
+               <li class="top4">
+                   <a href="#"><h3>심장사상충</h3></a>
+               </li>
+           </ul>
+       </section>
+       <section class="cont2">
+           <div class="customer">
+           <h3>상담전화</h3>
+           <p class="tel">TEL. 02-123-4567</p>
+           <p class="time">
+               상담시간
+               <span>AM 09:00 - PM 07:00</span>
+           </p>
+       </div>
+       <div class="location">
+           <h3>오시는 길</h3>
+           <p>
+           야옹시 멍멍동 찍찍3번지 107호
+           <span>(주차가능합니다)</span>
+           </p>
+           <a href="#">지도보기</a>
+       </div>
+       </section>
+       
+       <div id="footer">
+          <div class="footer_wrap">
+           <img src="images/logo_b.png" alt="미소 동물 병원">
+           <ul>
+               <li>미소동물병원 원장:김냥냥 / 사업자등록번호 : 123-45-678910</li>
+               <li>주소 : 야옹시 멍멍동 찍찍3번지 107호 / 상담전화 : 02-123-4567 / FAX : 02-123-7654</li>
+               <li>2019. Copyright(C) 미소동물병원.All rights reserved.</li>
+           </ul>
+           </div>
+       </div>
+   </body>
+</html>
