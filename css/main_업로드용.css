@@ -1,0 +1,234 @@
+* {
+  margin: 0;
+  padding: 0;
+  list-style: none;
+  font-family: 'Noto Sans KR', sans-serif; }
+
+img {
+  border: 0; }
+
+a {
+  text-decoration: none;
+  color: #000;
+  font-family: 'Noto Sans KR', sans-serif; }
+
+.hidden {
+  display: none; }
+
+button {
+  background: none;
+  border: 0;
+  cursor: pointer;
+  font-family: 'Noto Sans KR', sans-serif; }
+
+/* header */
+#header {
+  height: 80px;
+  border-bottom: 1px solid #b6b6b6;
+  position: absolute;
+  width: 100%;
+  background: rgba(255, 255, 255, 0.3);
+  min-width: 1200px; }
+  #header .header_wrap {
+    width: 1200px;
+    overflow: inherit;
+    position: relative;
+    left: 50%;
+    margin-left: -600px;
+    padding-top: 8px; }
+    #header .header_wrap h1 {
+      float: left; }
+
+/* gnb */
+.gnb {
+  float: right; }
+  .gnb > ul > li {
+    float: left; }
+    .gnb > ul > li:hover {
+      background: url("/miso/images/icon_ov.png") no-repeat center bottom; }
+      .gnb > ul > li:hover .dep {
+        display: block; }
+      .gnb > ul > li:hover > a {
+        font-weight: 800;
+        color: #28ce92; }
+    .gnb > ul > li > a {
+      font-size: 16px;
+      padding: 20px 28px 28px;
+      text-align: center;
+      display: inline-block;
+      color: #050505; }
+
+.dep {
+  background: #28ce92;
+  padding: 4px 0;
+  position: absolute;
+  margin-left: 10px;
+  display: none; }
+  .dep li {
+    padding: 4px 0; }
+    .dep li > a {
+      padding: 4px 20px;
+      display: block;
+      text-align: center;
+      color: #f2f2f2;
+      font-size: 15px; }
+      .dep li > a:hover {
+        background: #f2f2f2;
+        color: #28ce92;
+        font-weight: bold; }
+
+#footer {
+  background: #545454;
+  padding: 12px 0;
+  min-width: 1200px; }
+  #footer .footer_wrap {
+    width: 1200px;
+    margin: 0 auto; }
+    #footer .footer_wrap img {
+      float: left;
+      margin-right: 80px; }
+    #footer .footer_wrap ul li {
+      font-size: 14px;
+      color: #c6c6c6;
+      margin: 2px 0; }
+
+/* visual */
+.visual {
+  width: 100%;
+  margin: 0 auto;
+  overflow: hidden;
+  min-width: 1200px; }
+  .visual .visual_img {
+    height: 679px;
+    width: 6000px; }
+    .visual .visual_img li {
+      width: 2000px;
+      height: 679px;
+      float: left; }
+    .visual .visual_img .img1 {
+      background: url("/miso/images/visual1.jpg") no-repeat center center; }
+    .visual .visual_img .img2 {
+      background: url("/miso/images/visual2.jpg") no-repeat center center; }
+    .visual .visual_img .img3 {
+      background: url("/miso/images/visual3.jpg") no-repeat center center; }
+  .visual .visual_btn {
+    width: 1200px;
+    position: absolute;
+    left: 50%;
+    margin-left: -600px;
+    top: 300px;
+    min-width: 1200px; }
+    .visual .visual_btn li {
+      float: left;
+      cursor: pointer; }
+      .visual .visual_btn li:hover {
+        opacity: 0.5; }
+    .visual .visual_btn li:last-child {
+      float: right; }
+
+/* content */
+.cont2 {
+  width: 1200px;
+  margin: 0 auto;
+  min-width: 1200px; }
+
+.cont1 {
+  position: absolute;
+  top: 550px;
+  left: 50%;
+  margin-left: -600px;
+  min-width: 1200px; }
+  .cont1 ul {
+    position: relative; }
+    .cont1 ul li {
+      float: left;
+      margin-right: 24px; }
+      .cont1 ul li:last-child {
+        margin-right: 0; }
+      .cont1 ul li a {
+        width: 282px;
+        height: 282px;
+        display: block; }
+        .cont1 ul li a h3 {
+          color: #f2f2f2;
+          text-align: center;
+          padding-top: 110px;
+          font-size: 20px; }
+    .cont1 ul .top1 {
+      background: url("/miso/images/bg1.png") no-repeat center center; }
+      .cont1 ul .top1 a h3 {
+        background: url("/miso/images/icon1.png") no-repeat center center; }
+    .cont1 ul .top2 {
+      background: url("/miso/images/bg2.png") no-repeat center center; }
+      .cont1 ul .top2 a h3 {
+        background: url("/miso/images/icon2.png") no-repeat center center; }
+    .cont1 ul .top3 {
+      background: url("/miso/images/bg3.png") no-repeat center center; }
+      .cont1 ul .top3 a h3 {
+        background: url("/miso/images/icon3.png") no-repeat center center; }
+    .cont1 ul .top4 {
+      background: url("/miso/images/bg4.png") no-repeat center center; }
+      .cont1 ul .top4 a h3 {
+        background: url("/miso/images/icon4.png") no-repeat center center; }
+
+.cont2 {
+  overflow: hidden;
+  padding-top: 172px;
+  margin-bottom: 20px; }
+  .cont2 div {
+    float: left;
+    height: 172px;
+    box-sizing: border-box; }
+    .cont2 div h3 {
+      font-weight: 900;
+      font-size: 24px; }
+  .cont2 .customer {
+    width: 680px;
+    border: 2px solid #28ce92;
+    padding: 40px;
+    margin-right: 24px;
+    color: #28ce92; }
+    .cont2 .customer .tel {
+      font-size: 40px;
+      font-weight: bold;
+      float: left;
+      margin-right: 12px; }
+    .cont2 .customer .time {
+      padding-top: 6px;
+      font-size: 16px; }
+      .cont2 .customer .time span {
+        display: block; }
+  .cont2 .location {
+    width: 496px;
+    background: #28ce92;
+    color: #f2f2f2;
+    padding: 20px 32px; }
+    .cont2 .location h3 {
+      background: url("/miso/images/icon5.png") no-repeat left center;
+      padding: 8px 0 8px 44px; }
+    .cont2 .location p {
+      font-size: 20px;
+      font-weight: bold;
+      margin: 8px 0 10px;
+      letter-spacing: -1px; }
+      .cont2 .location p span {
+        font-size: 16px; }
+    .cont2 .location a {
+      color: #f2f2f2;
+      background: #3eeeae;
+      border: 1px solid #f2f2f2;
+      padding: 4px 8px;
+      display: inline-block; }
+      .cont2 .location a:hover {
+        opacity: 0.5; }
+
+@media (max-width: 1100px) {
+  .visual .visual_btn {
+    margin-left: 0;
+    left: 0; }
+
+  .cont1 {
+    left: 0;
+    margin-left: 0; } }
+
+/*# sourceMappingURL=main.css.map */
