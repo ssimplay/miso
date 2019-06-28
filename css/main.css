@@ -45,7 +45,7 @@ button {
   .gnb > ul > li {
     float: left; }
     .gnb > ul > li:hover {
-      background: url("images/icon_ov.png") no-repeat center bottom; }
+      background: url("/images/icon_ov.png") no-repeat center bottom; }
       .gnb > ul > li:hover .dep {
         display: block; }
       .gnb > ul > li:hover > a {
@@ -106,11 +106,11 @@ button {
       height: 679px;
       float: left; }
     .visual .visual_img .img1 {
-      background: url("/images/visual1.jpg") no-repeat center center; }
+      background: url("../images/visual1.jpg") no-repeat center center; }
     .visual .visual_img .img2 {
-      background: url("/images/visual2.jpg") no-repeat center center; }
+      background: url("../images/visual2.jpg") no-repeat center center; }
     .visual .visual_img .img3 {
-      background: url("/images/visual3.jpg") no-repeat center center; }
+      background: url("../images/visual3.jpg") no-repeat center center; }
   .visual .visual_btn {
     width: 1200px;
     position: absolute;
@@ -155,21 +155,21 @@ button {
           padding-top: 110px;
           font-size: 20px; }
     .cont1 ul .top1 {
-      background: url("/images/bg1.png") no-repeat center center; }
+      background: url("../images/bg1.png") no-repeat center center; }
       .cont1 ul .top1 a h3 {
-        background: url("/images/icon1.png") no-repeat center center; }
+        background: url("../images/icon1.png") no-repeat center center; }
     .cont1 ul .top2 {
-      background: url("/images/bg2.png") no-repeat center center; }
+      background: url("../images/bg2.png") no-repeat center center; }
       .cont1 ul .top2 a h3 {
-        background: url("/images/icon2.png") no-repeat center center; }
+        background: url("../images/icon2.png") no-repeat center center; }
     .cont1 ul .top3 {
-      background: url("/images/bg3.png") no-repeat center center; }
+      background: url("../images/bg3.png") no-repeat center center; }
       .cont1 ul .top3 a h3 {
-        background: url("/images/icon3.png") no-repeat center center; }
+        background: url("../images/icon3.png") no-repeat center center; }
     .cont1 ul .top4 {
-      background: url("/images/bg4.png") no-repeat center center; }
+      background: url("../images/bg4.png") no-repeat center center; }
       .cont1 ul .top4 a h3 {
-        background: url("/images/icon4.png") no-repeat center center; }
+        background: url("../images/icon4.png") no-repeat center center; }
 
 .cont2 {
   overflow: hidden;
@@ -204,7 +204,7 @@ button {
     color: #f2f2f2;
     padding: 20px 32px; }
     .cont2 .location h3 {
-      background: url("/images/icon5.png") no-repeat left center;
+      background: url("../images/icon5.png") no-repeat left center;
       padding: 8px 0 8px 44px; }
     .cont2 .location p {
       font-size: 20px;
