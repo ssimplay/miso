@@ -45,7 +45,7 @@ button {
   .gnb > ul > li {
     float: left; }
     .gnb > ul > li:hover {
-      background: url("/images/icon_ov.png") no-repeat center bottom; }
+      background: url("images/icon_ov.png") no-repeat center bottom; }
       .gnb > ul > li:hover .dep {
         display: block; }
       .gnb > ul > li:hover > a {
